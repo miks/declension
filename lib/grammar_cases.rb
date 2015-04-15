@@ -1,0 +1,10 @@
+require 'rubygems'
+require 'active_support/inflector'
+require 'active_support/core_ext/object'
+
+require 'grammar_cases/core_ext'
+require 'grammar_cases/cases'
+require 'grammar_cases/version'
+require 'grammar_cases/word'
+require 'grammar_cases/wrappers'
+require 'grammar_cases/languages'

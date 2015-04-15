@@ -1,0 +1,121 @@
+dzīvnieks:
+  gender: male
+  description: first declension
+  cases:
+    nominative: dzīvnieks
+    genitive: dzīvnieka
+    dative: dzīvniekam
+    accusative: dzīvnieku
+    instrumental: ar dzīvnieku
+    locative: dzīvniekā
+    vocative: dzīvnieks!
+tētis:
+  gender: male
+  description: second declension
+  cases:
+    nominative: tētis
+    genitive: tēta
+    dative: tētim
+    accusative: tēti
+    instrumental: ar tēti
+    locative: tētī
+    vocative: tēti!
+akmens:
+  gender: male
+  description: second declension exception
+  cases:
+    nominative: akmens
+    genitive: akmens
+    dative: akmenim
+    accusative: akmeni
+    instrumental: ar akmeni
+    locative: akmenī
+    vocative: akmen!
+suns:
+  gender: male
+  description: second declension exception
+  cases:
+    nominative: suns
+    genitive: suns
+    dative: sunim
+    accusative: suni
+    instrumental: ar suni
+    locative: sunī
+    vocative: sun!
+medus:
+  gender: male
+  description: third declension
+  cases:
+    nominative: medus
+    genitive: medus
+    dative: medum
+    accusative: medu
+    instrumental: ar medu
+    locative: medū
+    vocative: med(us|u)!
+Ingus:
+  gender: male
+  description: third declension exception
+  cases:
+    nominative: Ingus
+    genitive: Ingus
+    dative: Ingum
+    accusative: Ingu
+    instrumental: ar Ingu
+    locative: Ingū
+    vocative: Ing(us|u)!
+puika:
+  gender: male
+  description: forth declension - male gender
+  cases:
+    nominative: puika
+    genitive: puikas
+    dative: puikam
+    accusative: puiku
+    instrumental: ar puiku
+    locative: puikā
+    vocative: puika!
+lauva:
+  gender: female
+  description: forth declension - female gender
+  cases:
+    nominative: lauva
+    genitive: lauvas
+    dative: lauvai
+    accusative: lauvu
+    instrumental: ar lauvu
+    locative: lauvā
+    vocative: lauva!
+laime:
+  gender: female
+  description: fifth declension - female gender
+  cases:
+    nominative: laime
+    genitive: laimes
+    dative: laimei
+    accusative: laimi
+    instrumental: ar laimi
+    locative: laimē
+    vocative: laime!
+bende:
+  gender: male
+  description: fifth declension - male gender
+  cases:
+    nominative: bende
+    genitive: bendes
+    dative: bendem
+    accusative: bendi
+    instrumental: ar bendi
+    locative: bendē
+    vocative: bende!
+balss:
+  gender: female
+  description: sixth declension - male gender
+  cases:
+    nominative: balss
+    genitive: balss
+    dative: balsij
+    accusative: balsi
+    instrumental: ar balsi
+    locative: balsī
+    vocative: balss!
