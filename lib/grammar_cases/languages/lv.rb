@@ -6,6 +6,8 @@ module GrammarCases
       GENDER_MALE = :male
       GENDER_FEMALE = :female
       EXCEPTIONAL_MALE_WORDS = %w(mēness akmens asmens rudens ūdens zibens suns sāls)
+      CASES = [NOMINATIVE_CASE, GENITIVE_CASE, DATIVE_CASE, ACCUSATIVE_CASE, INSTRUMENTAL_CASE, LOCATIVE_CASE, VOCATIVE_CASE]
+
       attr_accessor :declension, :ending, :gender, :exception, :word_base
 
       def analyze_word
