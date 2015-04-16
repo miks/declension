@@ -42,6 +42,6 @@ Fork the project. Make your feature addition or bug fix with tests.
 
 Send a pull request. Bonus points for topic branches.
 
-== Contacts / Контакты / Contacts
+== Contacts
 
 * Miks Miķelsons (link:http://github.com/miks)
