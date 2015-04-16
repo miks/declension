@@ -64,7 +64,7 @@ module Declension
         end
       end
 
-      def to_grammar_case(grammar_case, options = {})
+      def inflect(grammar_case, options = {})
         self.gender = options[:gender].to_sym
         analyze_word
 
