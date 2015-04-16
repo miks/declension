@@ -1,4 +1,4 @@
-module GrammarCases
+module Declension
   module Languages
     class Lv::Inflections
       attr_accessor :declension, :word, :word_base

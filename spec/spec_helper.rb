@@ -9,4 +9,4 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
 ]
 SimpleCov.start
 
-require 'grammar_cases'
+require 'declension'

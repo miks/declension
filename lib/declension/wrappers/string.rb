@@ -1,4 +1,4 @@
-module GrammarCases
+module Declension
   module Wrappers
     class String
       attr_accessor :string
@@ -8,7 +8,7 @@ module GrammarCases
       end
 
       def to_grammar_case(grammar_case, options)
-        string.split(" ").map{|word| GrammarCases::Word.new(word).to_grammar_case(grammar_case, options) }.join(" ")
+        string.split(" ").map{|word| Declension::Word.new(word).to_grammar_case(grammar_case, options) }.join(" ")
       end
     end
   end

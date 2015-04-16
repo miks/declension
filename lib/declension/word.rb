@@ -1,4 +1,4 @@
-module GrammarCases
+module Declension
   class Word
     attr_accessor :word
 
@@ -7,7 +7,7 @@ module GrammarCases
     end
 
     def to_grammar_case(grammar_case, options)
-      GrammarCases::Languages::Lv.new(word).to_grammar_case(grammar_case.to_sym, options)
+      Declension::Languages::Lv.new(word).to_grammar_case(grammar_case.to_sym, options)
     end
   end
 end

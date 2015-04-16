@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe GrammarCases::VERSION, 'version' do
+describe Declension::VERSION, 'version' do
   let(:version_array) { subject.split '.' }
   let(:version_sum) { version_array.map(&:to_i).reduce :+ }
 

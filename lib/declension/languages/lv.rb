@@ -1,7 +1,7 @@
-module GrammarCases
+module Declension
   module Languages
-    class Lv < GrammarCases::Languages::Base
-      require 'grammar_cases/languages/lv/inflections'
+    class Lv < Declension::Languages::Base
+      require 'declension/languages/lv/inflections'
 
       GENDER_MALE = :male
       GENDER_FEMALE = :female

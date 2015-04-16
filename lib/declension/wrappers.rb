@@ -1,0 +1,1 @@
+require 'declension/wrappers/string'

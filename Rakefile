@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'bundler'
 
-require File.expand_path('../lib/grammar_cases/version', __FILE__)
+require File.expand_path('../lib/declension/version', __FILE__)
 
 begin
   Bundler.setup :default, :development
@@ -15,13 +15,13 @@ require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  gem.name = 'grammar_cases'
-  gem.homepage = 'http://github.com/miks/grammar_cases'
+  gem.name = 'declension'
+  gem.homepage = 'http://github.com/miks/declension'
   gem.license = 'MIT'
   gem.summary = 'Apply grammatical cases to words'
   gem.description = 'Apply grammatical cases to words.'
   gem.email = 'miks.mikelsons@gmail.com'
-  gem.version = GrammarCases::VERSION
+  gem.version = Declension::VERSION
   gem.authors = ['Miks Mikelsons']
   gem.files = Dir.glob('lib/**/*')
 end
@@ -40,7 +40,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ''
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "grammar_cases #{version}"
+  rdoc.title = "declension #{version}"
   rdoc.rdoc_files.include 'README*'
   rdoc.rdoc_files.include 'LICENSE*'
   rdoc.rdoc_files.include 'lib/**/*.rb'

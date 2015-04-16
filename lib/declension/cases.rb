@@ -1,4 +1,4 @@
-module GrammarCases
+module Declension
   NOMINATIVE_CASE = :nominative
   GENITIVE_CASE = :genitive
   DATIVE_CASE = :dative

@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "grammar_cases"
+  s.name = "declension"
   s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -13,20 +13,20 @@ Gem::Specification.new do |s|
   s.description = "Apply grammatical cases to words."
   s.email = "miks.mikelsons@gmail.com"
   s.files = [
-    "lib/grammar_cases.rb",
-    "lib/grammar_cases/cases.rb",
-    "lib/grammar_cases/core_ext.rb",
-    "lib/grammar_cases/core_ext/string.rb",
-    "lib/grammar_cases/languages.rb",
-    "lib/grammar_cases/languages/base.rb",
-    "lib/grammar_cases/languages/lv.rb",
-    "lib/grammar_cases/languages/lv/inflections.rb",
-    "lib/grammar_cases/version.rb",
-    "lib/grammar_cases/word.rb",
-    "lib/grammar_cases/wrappers.rb",
-    "lib/grammar_cases/wrappers/string.rb"
+    "lib/declension.rb",
+    "lib/declension/cases.rb",
+    "lib/declension/core_ext.rb",
+    "lib/declension/core_ext/string.rb",
+    "lib/declension/languages.rb",
+    "lib/declension/languages/base.rb",
+    "lib/declension/languages/lv.rb",
+    "lib/declension/languages/lv/inflections.rb",
+    "lib/declension/version.rb",
+    "lib/declension/word.rb",
+    "lib/declension/wrappers.rb",
+    "lib/declension/wrappers/string.rb"
   ]
-  s.homepage = "http://github.com/miks/grammar_cases"
+  s.homepage = "http://github.com/miks/declension"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "2.0.14"

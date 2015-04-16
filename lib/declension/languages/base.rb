@@ -1,4 +1,4 @@
-module GrammarCases
+module Declension
   module Languages
     class Base
       attr_accessor :word
