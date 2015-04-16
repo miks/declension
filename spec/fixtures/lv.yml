@@ -1,5 +1,6 @@
 dzīvnieks:
-  gender: male
+  options:
+    as: male
   description: first declension
   cases:
     nominative: dzīvnieks
@@ -10,7 +11,8 @@ dzīvnieks:
     locative: dzīvniekā
     vocative: dzīvnieks!
 tētis:
-  gender: male
+  options:
+    as: male
   description: second declension
   cases:
     nominative: tētis
@@ -21,7 +23,8 @@ tētis:
     locative: tētī
     vocative: tēti!
 akmens:
-  gender: male
+  options:
+    as: male
   description: second declension exception
   cases:
     nominative: akmens
@@ -32,7 +35,8 @@ akmens:
     locative: akmenī
     vocative: akmen!
 suns:
-  gender: male
+  options:
+    as: male
   description: second declension exception
   cases:
     nominative: suns
@@ -43,7 +47,8 @@ suns:
     locative: sunī
     vocative: sun!
 medus:
-  gender: male
+  options:
+    as: male
   description: third declension
   cases:
     nominative: medus
@@ -54,7 +59,8 @@ medus:
     locative: medū
     vocative: med(us|u)!
 Ingus:
-  gender: male
+  options:
+    as: male
   description: third declension exception
   cases:
     nominative: Ingus
@@ -65,7 +71,8 @@ Ingus:
     locative: Ingū
     vocative: Ing(us|u)!
 puika:
-  gender: male
+  options:
+    as: male
   description: forth declension - male gender
   cases:
     nominative: puika
@@ -76,7 +83,8 @@ puika:
     locative: puikā
     vocative: puika!
 lauva:
-  gender: female
+  options:
+    as: female
   description: forth declension - female gender
   cases:
     nominative: lauva
@@ -87,7 +95,8 @@ lauva:
     locative: lauvā
     vocative: lauva!
 laime:
-  gender: female
+  options:
+    as: female
   description: fifth declension - female gender
   cases:
     nominative: laime
@@ -98,7 +107,8 @@ laime:
     locative: laimē
     vocative: laime!
 bende:
-  gender: male
+  options:
+    as: male
   description: fifth declension - male gender
   cases:
     nominative: bende
@@ -109,7 +119,8 @@ bende:
     locative: bendē
     vocative: bende!
 balss:
-  gender: female
+  options:
+    as: female
   description: sixth declension - male gender
   cases:
     nominative: balss

@@ -3,8 +3,10 @@ module Declension
     class Lv < Declension::Languages::Base
       require 'declension/languages/lv/inflections'
 
-      GENDER_MALE = :male
-      GENDER_FEMALE = :female
+      GENDERS = [
+        GENDER_MALE = :male,
+        GENDER_FEMALE = :female
+      ]
       EXCEPTIONAL_MALE_WORDS = %w(mēness akmens asmens rudens ūdens zibens suns sāls)
       CASES = [NOMINATIVE_CASE, GENITIVE_CASE, DATIVE_CASE, ACCUSATIVE_CASE, INSTRUMENTAL_CASE, LOCATIVE_CASE, VOCATIVE_CASE]
 
@@ -64,8 +66,12 @@ module Declension
         end
       end
 
+      def assign_options(options)
+        self.gender = Array(options[:as]).map(&:to_sym).find{|option| GENDERS.include? option }
+      end
+
       def inflect(grammar_case, options = {})
-        self.gender = options[:gender].to_sym
+        assign_options(options)
         analyze_word
 
         if declension == 1

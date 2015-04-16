@@ -4,11 +4,11 @@ module Declension
       attr_accessor :word
 
       def initialize(word)
-        @word = word
+        self.word = word
       end
 
       def inflect(grammar_case, options = {})
-	word
+        word
       end
     end
   end
