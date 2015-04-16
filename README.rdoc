@@ -1,0 +1,47 @@
+== declension
+
+{<img src="https://secure.travis-ci.org/miks/declension.png?branch=master" />}[http://travis-ci.org/miks/declension]
+
+Inflect string according to current I18n.locale.
+
+== Supported Languages
+
+* Latvian [lv]
+
+== Examples
+
+    "Jānis Ozols".inflect(:genitive, as: :male)
+    => "Jāņa Ozola"
+
+    "automašīna".inflect(:instrumental, as: :female)
+    => "ar automašīnu"
+
+    "Roberts Egle".inflect(:dative, as: :male)
+    => "Robertam Eglem"
+
+    "Jana Egle".inflect(:dative, as: :female)
+    => "Janai Eglei"
+
+== Requirements
+
+* 2.0.0 <= Ruby
+
+== Installation
+
+    gem install declension
+
+== License
+
+MIT License
+
+== Bugs and Language Support
+
+See CHANGELOG.md for last changes.
+
+Fork the project. Make your feature addition or bug fix with tests.
+
+Send a pull request. Bonus points for topic branches.
+
+== Contacts / Контакты / Contacts
+
+* Miks Miķelsons (link:http://github.com/miks)
