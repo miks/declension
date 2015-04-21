@@ -21,7 +21,7 @@ module Declension
           raise ArgumentError, "No valid gender specified"
         end
 
-        self.word_base = word[0..-(ending.length + 1)]
+        self.word_base = word[0..-(ending.length + 1)] if declension
       end
 
       def analyze_male_gender_word
@@ -86,6 +86,8 @@ module Declension
           fifth_declension(grammar_case, options = {})
         elsif declension == 6
           sixth_declension(grammar_case, options = {})
+        else
+          word
         end
       end
 

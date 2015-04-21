@@ -1,3 +1,16 @@
+ivo:
+  options:
+    as: male
+  description: no declensionable
+  cases:
+    nominative: ivo
+    genitive: ivo
+    dative: ivo
+    accusative: ivo
+    instrumental: ivo
+    locative: ivo
+    vocative: ivo
+
 dzīvnieks:
   options:
     as: male
